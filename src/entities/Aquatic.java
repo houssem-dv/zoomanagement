@@ -18,6 +18,6 @@ public abstract class Aquatic extends Animal {
         return super.toString() + ", Habitat : " + habitat;
     }
 
-    // Méthode abstraite
+
     public abstract void swim();
 }

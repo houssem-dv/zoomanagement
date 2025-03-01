@@ -5,13 +5,13 @@ public class Zoo {
     private String city;
     private final int MAX_CAGES = 25;
     private Animal[] animals;
-    private Aquatic[] aquaticAnimals; // Tableau pour les animaux aquatiques
+    private Aquatic[] aquaticAnimals;
 
     public Zoo(String name, String city, int nbrCages) {
         setName(name);
         this.city = city;
         this.animals = new Animal[nbrCages];
-        this.aquaticAnimals = new Aquatic[10]; // Initialisation du tableau avec une capacité de 10
+        this.aquaticAnimals = new Aquatic[10];
     }
 
     public String getName() {
