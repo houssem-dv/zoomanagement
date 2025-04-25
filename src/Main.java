@@ -23,7 +23,7 @@ public class Main {
         gestion.ajouterEmployeDepartement(e1, d2);
         System.out.println(" Après Réaffectation d'e1 à un autre département :");
         gestion.afficherEmployesEtDepartements();
-        // Vous remarquerez que e1 est désormais uniquement dans le dernier département (d2)
+        // je remarque que e1 est désormais uniquement dans le dernier département (d2)
 
         gestion.supprimerEmploye(e2);
 
